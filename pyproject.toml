@@ -1,0 +1,15 @@
+[project]
+name = "test_transneft"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Gleb Budnik", email = "budnikgleb@mail.ru"},
+]
+dependencies = ["langchain>=0.3.7", "langchain-community>=0.3.5", "faiss-cpu>=1.9.0", "rank-bm25>=0.2.2", "faiss-cpu>=1.9.0", "elasticsearch>=8.15.1", "natasha>=1.6.0", "pyyaml>=6.0.2", "fastapi>=0.115.4", "pandas>=2.2.3", "setuptools>=75.3.0", "sentence-transformers[cpu]>=3.2.1", "uvicorn>=0.32.0", "notebook>=7.2.2", "ipykernel>=6.29.5", "pytest>=8.3.3"]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
