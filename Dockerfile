@@ -16,5 +16,4 @@ COPY src /project/src
 COPY data /project/data
 COPY conf.yaml /project/conf.yaml
 
-WORKDIR /project
 CMD ["python", "-m", "src.app"]
